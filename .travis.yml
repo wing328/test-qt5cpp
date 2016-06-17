@@ -12,7 +12,7 @@ before_install:
   - export QMAKE=/usr/lib/x86_64-linux-gnu/qt5/bin/qmake
 
 script:
- - cd Petstore
+ - cd PetStore
  - qmake -project
- - qmake Petstore.pro
+ - qmake PetStore.pro
  - make
