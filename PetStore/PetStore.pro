@@ -6,6 +6,9 @@
 
 QT       += core gui testlib network
 
+QT       += network 
+
+
 QT       -= gui
 
 TARGET = PetStore
